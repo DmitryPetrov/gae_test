@@ -37,7 +37,7 @@ public class HelloFromGae extends HttpServlet {
             ;
         } else {
             response.getWriter().append(
-                    "<h1> Hello from Google App Engine, " + name + "</h1>")
+                    "<h1> Hello from Heriku, " + name + "</h1>")
                     .close();
         }
     }
